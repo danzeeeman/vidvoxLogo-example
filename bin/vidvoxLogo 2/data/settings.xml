@@ -1,0 +1,14 @@
+
+	<fileName>oF-01.png<fileName>//filename of jpeg or png file
+        
+    //note these will not scale proportionally to teh aspect ratio
+	<width>800</width> //desired width
+	<height>800</height> //desired height
+        
+    //these are your OSC address configured from VDMX
+	<port>12345</port>
+    <forceRadius>/FromVDMX/forceRadius</forceRadius> //This should be a normalized float between 0..1 
+	<friction>/FromVDMX/friction</friction> //This should be a normalized float between 0..1
+	<springEnabled>/FromVDMX/springEnabled</springEnabled>  //This should be a toggle button but sending 0..100
+	<springFactor>/FromVDMX/springFactor</springFactor> //This should be a normalized float between 0..1
+	<mode>/FromVDMX/mode</mode> //This should be a toggle button but sending 0..100
