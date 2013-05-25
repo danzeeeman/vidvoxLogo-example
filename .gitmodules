@@ -1,6 +1,6 @@
 [submodule "ofxSyphon"]
     path = ofxSyphon
-    url = git://github.com/astellato/ofxSyphon.git dev
+    url = git://github.com/astellato/ofxSyphon.git
 
 [submodule "ofxControlPanel"]
     path = src/ofxControlPanel
