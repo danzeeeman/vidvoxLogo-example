@@ -120,7 +120,7 @@ void testApp::setup()
 void testApp::update(){
     
     ofPoint diff ;          //Difference between particle current position and particle's spawn position
-    float dist ;            //distance from particle to mouse ( as the crow flies ) 
+    float dist ;            //distance from particle to the spawn point ( as the crow flies ) 
     float ratio ;           //ratio of how strong the effect is = 1 + (-dist/maxDistance) ;
     const ofPoint home = ofPoint(ofGetWindowWidth()/2, ofGetWindowHeight()/2);
 
